@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+ 
+  font-style: Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  float: right;
+  padding-top: 50px;
+}
+
+.topnav a {
+
+
+  flex-direction: row;
+  float: inline-end;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: aliceblue;
+  background-color: transparent;
+}
+
+.btm {
+  padding-top: 140px;
+  color: aliceblue;
+  padding-left: 20px;
+  text-transform: uppercase;
+  
+
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("./assest/img/backgrounds/1.jpg");
+
+  min-height: 600px;
+  min-width: 520px;
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  /* position: relative; */
+
+   
+
+   /* text-align: center; */
+
+   font-style: Arial;
+}
+
+.desc {
+  /* border: 2px solid #ddd; */
+  margin-right: 1100px;
+  margin-left: 20px;
+  color: aliceblue;
+  margin-top: 10px;
+  padding: 4px;
+  border: 2px  solid #ddd;
+
+  text-align: center;
+  
+  font-style: Arial;
+}
+
+.btn {
+  padding-right: 37px;
+ margin: 0px;
+   padding:0px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: center;
+}
+
+
+.logo {
+  float: left;
+  color: red;
+  padding-top: 60px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
